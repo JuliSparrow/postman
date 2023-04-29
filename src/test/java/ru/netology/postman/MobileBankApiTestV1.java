@@ -12,7 +12,7 @@ class MobileBankApiTestV1 {
         // Предусловия
         given()
             .baseUri("https://postman-echo.com")
-            .body("Hello") // отправляемые данные (заголовки и query можно выставлять аналогично)
+            .body("Hello world") // отправляемые данные (заголовки и query можно выставлять аналогично)
         // Выполняемые действия
         .when()
             .post("/post")
